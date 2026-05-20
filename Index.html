@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+
+    <title>Quadra Solidária</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+</head>
+
+<body>
+
+    <section class="hero">
+
+        <header>
+
+            <div class="logo">
+
+                <i class="fa-solid fa-futbol"></i>
+
+                <h2>QUADRA SOLIDÁRIA</h2>
+
+            </div>
+
+            <nav id="menu">
+
+                <ul>
+
+                    <li><a href="#">Início</a></li>
+
+                    <li><a href="#">Eventos</a></li>
+
+                    <li><a href="#">Campeonatos</a></li>
+
+                    <li><a href="#">Quadras</a></li>
+
+                    <li><a href="#">Contato</a></li>
+
+                </ul>
+
+            </nav>
+
+            <div class="menu-mobile"
+            onclick="abrirMenu()">
+
+                <i class="fa-solid fa-bars"></i>
+
+            </div>
+
+        </header>
+
+        <div class="content">
+
+            <span class="tag">
+                ⚽ Plataforma esportiva da comunidade
+            </span>
+
+            <h1>
+                Transformando esporte em união social
+            </h1>
+
+            <p>
+
+                Reserve quadras, participe de campeonatos,
+                acompanhe eventos e fortaleça sua comunidade
+                através do esporte e da solidariedade.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <button class="green">
+                    Ver Eventos
+                </button>
+
+                <button class="white">
+                    Reservar Quadra
+                </button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="stats">
+
+        <div class="stat">
+
+            <h2>+120</h2>
+
+            <p>Eventos realizados</p>
+
+        </div>
+
+        <div class="stat">
+
+            <h2>+850</h2>
+
+            <p>Moradores participantes</p>
+
+        </div>
+
+        <div class="stat">
+
+            <h2>15</h2>
+
+            <p>Campeonatos ativos</p>
+
+        </div>
+
+        <div class="stat">
+
+            <h2>+40</h2>
+
+            <p>Voluntários</p>
+
+        </div>
+
+    </section>
+
+    <section class="cards">
+
+        <div class="card">
+
+            <i class="fa-solid fa-trophy"></i>
+
+            <h3>Campeonatos</h3>
+
+            <p>
+
+                Acompanhe torneios e campeonatos
+                esportivos da comunidade.
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-calendar-days"></i>
+
+            <h3>Eventos</h3>
+
+            <p>
+
+                Descubra eventos esportivos
+                e ações sociais próximas.
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-futbol"></i>
+
+            <h3>Quadras</h3>
+
+            <p>
+
+                Reserve espaços esportivos
+                com facilidade.
+
+            </p>
+
+        </div>
+
+        <div class="card">
+
+            <i class="fa-solid fa-users"></i>
+
+            <h3>Comunidade</h3>
+
+            <p>
+
+                Fortaleça vínculos sociais
+                através do esporte.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <section class="tabela">
+
+        <div class="titulo">
+
+            <h2>
+                🏆 Ranking do Campeonato
+            </h2>
+
+        </div>
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Posição</th>
+
+                    <th>Equipe</th>
+
+                    <th>Pontos</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>1º</td>
+
+                    <td>Tucanos</td>
+
+                    <td>28</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>2º</td>
+
+                    <td>Unisporte</td>
+
+                    <td>25</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>3º</td>
+
+                    <td>Academia</td>
+
+                    <td>22</td>
+
+                </tr>
+
+                <tr>
+
+                    <td>4º</td>
+
+                    <td>Liver</td>
+
+                    <td>19</td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <section class="eventos">
+
+        <div class="titulo">
+
+            <h2>
+                📅 Próximos Eventos
+            </h2>
+
+        </div>
+
+        <div class="evento-card">
+
+            <h3>Campeonato de Futsal</h3>
+
+            <p>Domingo - 14h</p>
+
+        </div>
+
+        <div class="evento-card">
+
+            <h3>Ação Solidária</h3>
+
+            <p>Sábado - 09h</p>
+
+        </div>
+
+        <div class="evento-card">
+
+            <h3>Torneio Infantil</h3>
+
+            <p>Quarta - 19h</p>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <p>
+
+            © 2026 - Quadra Solidária Criado por Ariquener Marques
+
+        </p>
+
+    </footer>
+
+    <script>
+
+        function abrirMenu(){
+
+            const menu =
+            document.getElementById('menu');
+
+            menu.classList.toggle('ativo');
+
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -1,7 +1,3 @@
-// =====================
-// MENU RESPONSIVO
-// =====================
-
 const menuLinks =
 document.querySelectorAll(
     '.nav-link'
@@ -26,9 +22,6 @@ menuLinks.forEach(link => {
 
 });
 
-// =====================
-// SCROLL SUAVE
-// =====================
 
 document.querySelectorAll(
     'a[href^="#"]'
@@ -57,9 +50,6 @@ document.querySelectorAll(
 
 });
 
-// =====================
-// ANIMAÇÃO DOS CARDS
-// =====================
 
 const cards =
 document.querySelectorAll(
@@ -88,9 +78,6 @@ cards.forEach(card => {
 
 });
 
-// =====================
-// ALERTA BOTÃO EVENTOS
-// =====================
 
 const btnEventos =
 document.querySelector(

@@ -6,12 +6,13 @@ O projeto foi desenvolvido como atividade acadêmica do **Módulo 2 – Desenvol
 
 ---
 
-## Objetivo do Projeto
+## 📌 Objetivo do Projeto
 
 O **Quadra Solidária** foi criado com o objetivo de incentivar a participação comunitária por meio do esporte, oferecendo uma plataforma simples, acessível e organizada para divulgação de campeonatos, eventos esportivos e fortalecimento da interação social.
 
+---
 
-## Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 
 As seguintes tecnologias foram utilizadas no desenvolvimento:
 
@@ -22,8 +23,9 @@ As seguintes tecnologias foram utilizadas no desenvolvimento:
 - **Font Awesome** → ícones
 - **Google Fonts (Poppins)** → tipografia
 
+---
 
-## Funcionalidades do Sistema
+## 🚀 Funcionalidades do Sistema
 
 O sistema apresenta as seguintes funcionalidades:
 
@@ -37,9 +39,11 @@ O sistema apresenta as seguintes funcionalidades:
 - Interface adaptada para desktop e dispositivos móveis
 - Estrutura preparada para futura implementação de login administrativo
 
+---
 
-## Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
+```txt
 quadra-solidaria/
 │
 ├── index.html
@@ -48,6 +52,7 @@ quadra-solidaria/
 ├── README.md
 │
 └── assets/
+```
 
 ### Descrição dos Arquivos
 
@@ -67,6 +72,8 @@ Inclui:
 - Ranking do campeonato
 - Próximos eventos
 - Rodapé institucional
+
+---
 
 ### `style.css`
 
@@ -89,13 +96,16 @@ Também implementa:
 - cards interativos;
 - responsividade com media queries.
 
-## Como Executar o Projeto
+---
+
+## ▶ Como Executar o Projeto
 
 ### Método 1 — Abrindo diretamente
 
 1. Baixe ou clone o projeto:
 
 ```bash
+git clone SEU_LINK_DO_REPOSITORIO
 ```
 
 2. Abra a pasta do projeto.
@@ -105,6 +115,8 @@ Também implementa:
 ```txt
 index.html
 ```
+
+---
 
 ### Método 2 — Recomendado (VS Code + Live Server)
 
@@ -116,13 +128,13 @@ index.html
 
 3. Clique com o botão direito em:
 
-```
+```txt
 index.html
 ```
 
 4. Selecione:
 
-```
+```txt
 Open with Live Server
 ```
 
@@ -130,7 +142,7 @@ O sistema será iniciado automaticamente no navegador.
 
 ---
 
-## Responsividade
+## 📱 Responsividade
 
 A interface foi desenvolvida com foco em responsividade, utilizando **Bootstrap 5** e **Media Queries**, permitindo adaptação para:
 
@@ -138,8 +150,9 @@ A interface foi desenvolvida com foco em responsividade, utilizando **Bootstrap 
 - Tablets
 - Smartphones
 
+---
 
-## Capturas da Aplicação
+## 📷 Capturas da Aplicação
 
 Adicionar imagens do sistema nesta seção.
 
@@ -153,7 +166,9 @@ Exemplo:
 
 > Inserir captura da área de campeonatos e eventos.
 
-## Melhorias Futuras
+---
+
+## 🔧 Melhorias Futuras
 
 Algumas melhorias previstas para futuras versões incluem:
 
@@ -164,9 +179,12 @@ Algumas melhorias previstas para futuras versões incluem:
 - Painel administrativo
 - Integração com backend Java (Spring Boot)
 
-## Autor
+---
+
+## 👨‍💻 Autor
 
 **Ariquener Marques**
 
+Projeto acadêmico desenvolvido para fins de estudo na disciplina de Desenvolvimento de Aplicação Web.
 
 © 2026 — Quadra Solidária

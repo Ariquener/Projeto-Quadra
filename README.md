@@ -1,4 +1,4 @@
-# ⚽ Quadra Solidária
+#  Quadra Solidária
 
 Sistema web desenvolvido para promover a integração esportiva da comunidade, permitindo divulgação de eventos, campeonatos, quadras esportivas e ações sociais.
 
@@ -6,13 +6,13 @@ O projeto foi desenvolvido como atividade acadêmica do **Módulo 2 – Desenvol
 
 ---
 
-## 📌 Objetivo do Projeto
+##  Objetivo do Projeto
 
 O **Quadra Solidária** foi criado com o objetivo de incentivar a participação comunitária por meio do esporte, oferecendo uma plataforma simples, acessível e organizada para divulgação de campeonatos, eventos esportivos e fortalecimento da interação social.
 
 ---
 
-## 🛠 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 As seguintes tecnologias foram utilizadas no desenvolvimento:
 
@@ -25,7 +25,7 @@ As seguintes tecnologias foram utilizadas no desenvolvimento:
 
 ---
 
-## 🚀 Funcionalidades do Sistema
+##  Funcionalidades do Sistema
 
 O sistema apresenta as seguintes funcionalidades:
 
@@ -41,7 +41,7 @@ O sistema apresenta as seguintes funcionalidades:
 
 ---
 
-## 📂 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```txt
 quadra-solidaria/
@@ -51,7 +51,6 @@ quadra-solidaria/
 ├── antonio-joao01.jpg
 ├── README.md
 │
-└── assets/
 ```
 
 ### Descrição dos Arquivos
@@ -98,7 +97,7 @@ Também implementa:
 
 ---
 
-## ▶ Como Executar o Projeto
+##  Como Executar o Projeto
 
 ### Método 1 — Abrindo diretamente
 
@@ -142,7 +141,7 @@ O sistema será iniciado automaticamente no navegador.
 
 ---
 
-## 📱 Responsividade
+##  Responsividade
 
 A interface foi desenvolvida com foco em responsividade, utilizando **Bootstrap 5** e **Media Queries**, permitindo adaptação para:
 
@@ -150,25 +149,8 @@ A interface foi desenvolvida com foco em responsividade, utilizando **Bootstrap 
 - Tablets
 - Smartphones
 
----
 
-## 📷 Capturas da Aplicação
-
-Adicionar imagens do sistema nesta seção.
-
-Exemplo:
-
-### Tela Inicial
-
-> Inserir captura da página principal do sistema.
-
-### Ranking e Eventos
-
-> Inserir captura da área de campeonatos e eventos.
-
----
-
-## 🔧 Melhorias Futuras
+##  Melhorias Futuras
 
 Algumas melhorias previstas para futuras versões incluem:
 
@@ -181,10 +163,9 @@ Algumas melhorias previstas para futuras versões incluem:
 
 ---
 
-## 👨‍💻 Autor
+##  Autor
 
 **Ariquener Marques**
 
-Projeto acadêmico desenvolvido para fins de estudo na disciplina de Desenvolvimento de Aplicação Web.
 
 © 2026 — Quadra Solidária
